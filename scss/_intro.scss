@@ -1,0 +1,28 @@
+.intro {
+    background-image: url(../img/bg/bg1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 400px;
+
+    margin: -60px 0 0;
+
+    &__filter {
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 400px;
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__title {
+        font-family: "Montserrat", Helvetica, Arial, sans-ser;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 1.4;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+    }
+}
