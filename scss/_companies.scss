@@ -1,0 +1,45 @@
+.companies {
+    background-image: url(../img/bg/bg2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 400px;
+    width: 100%;
+
+    &__filter {
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 400px;
+        width: 100%;
+    }
+
+    &__title {
+        font-family: "Roboto", Helvetica, Arial, sans-ser;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 1.4;
+        text-transform: uppercase;
+        text-align: center;
+        color: blue;
+    }
+
+    &__subtitle {
+        text-align: center;
+        padding: 10px 0 30px;
+        font-size: 1.2rem;
+    }
+
+    &__logo-group {
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        padding: 30px 0;
+    }
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
