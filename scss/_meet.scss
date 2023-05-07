@@ -1,0 +1,30 @@
+.meet {
+    // height: 1000px;
+    &__title {
+    }
+
+    &__subtitle {
+    }
+
+    &__cards {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 40px;
+    }
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        & img {
+            width: 70%;
+        }
+
+        & p {
+            text-align: center;
+        }
+    }
+}

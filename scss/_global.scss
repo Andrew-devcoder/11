@@ -3,6 +3,22 @@
     margin: 0 auto;
 }
 
+.title {
+    font-family: "Roboto", Helvetica, Arial, sans-ser;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1.4;
+    text-transform: uppercase;
+    text-align: center;
+    color: blue;
+}
+
+.subtitle {
+    text-align: center;
+    padding: 10px 0 30px;
+    font-size: 1.2rem;
+}
+
 .filter {
     background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
@@ -10,9 +26,23 @@
 }
 
 .polygon {
-    padding: 200px 0;
+    padding: 10% 0;
     background-color: white;
-    flex-basis: 100%;
     clip-path: polygon(100% 0%, 100% 90%, 50% 100%, 0 90%, 0 0, 50% 10%);
     margin: -10% 0;
+
+    &--last-child {
+        margin: -10% 0 0;
+        padding: 10% 0 0;
+        clip-path: polygon(100% 0%, 100% 100%, 50% 100%, 0 100%, 0 0, 50% 26%);
+    }
+}
+
+cite {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: white;
+
+    padding: 20px 300px 0 0;
 }

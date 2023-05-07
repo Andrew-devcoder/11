@@ -1,0 +1,14 @@
+.why {
+    padding: 100px 0;
+
+    &__title {
+        padding: 50px 0 0;
+    }
+    & p {
+        text-align: center;
+        font-size: 28px;
+        max-width: 70%;
+        margin: 0 auto;
+        font-weight: 800;
+    }
+}
