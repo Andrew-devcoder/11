@@ -2,14 +2,8 @@
     background-image: url(../img/bg/bg2.jpg);
     background-attachment: fixed;
     background-size: cover;
-    min-height: 400px;
+    height: 800px;
     width: 100%;
-
-    &__filter {
-        // background-color: rgba(0, 0, 0, 0.7);
-        height: 400px;
-        width: 100%;
-    }
 
     &__title {
         font-family: "Roboto", Helvetica, Arial, sans-ser;
@@ -19,12 +13,15 @@
         text-transform: uppercase;
         text-align: center;
         color: blue;
+
+        padding: 20% 0 0;
     }
 
     &__subtitle {
         text-align: center;
         padding: 10px 0 30px;
         font-size: 1.2rem;
+        color: white;
     }
 
     &__logo-group {
