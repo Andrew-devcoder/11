@@ -5,18 +5,25 @@
 
 .title {
     font-family: "Roboto", Helvetica, Arial, sans-ser;
+    font-size: 60px;
     font-weight: 800;
-    font-size: 36px;
     line-height: 1.4;
     text-transform: uppercase;
     text-align: center;
-    color: blue;
+    color: $accent-color;
 }
 
 .subtitle {
     text-align: center;
     padding: 10px 0 30px;
-    font-size: 1.2rem;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.text-center {
+    text-align: center;
+    line-height: 1.4;
+    font-size: 16px;
 }
 
 .filter {
@@ -27,7 +34,7 @@
 
 .polygon {
     padding: 10% 0;
-    background-color: white;
+    background-color: $background-color;
     clip-path: polygon(100% 0%, 100% 90%, 50% 100%, 0 90%, 0 0, 50% 10%);
     margin: -10% 0;
 
@@ -46,7 +53,7 @@ cite {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    color: white;
+    color: $white-color;
 
     padding: 20px 300px 0 0;
 }
