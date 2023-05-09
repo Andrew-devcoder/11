@@ -18,6 +18,8 @@
 .logo {
     font-family: "Roboto", sans-serif;
     font-size: 36px;
+    font-weight: 400;
+    color: $second-color;
 
     & span {
         font-weight: 800;
@@ -48,6 +50,6 @@
 
     &__link {
         padding: 0 0 0 10px;
-        color: $black-color;
+        color: $second-color;
     }
 }
