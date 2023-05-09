@@ -2,9 +2,8 @@
     &__bg {
         position: sticky;
         top: 0;
-        margin: 10px 0;
-        padding: 10px 0;
-        background-color: #c7c7c7;
+        margin: 32px 0 0;
+        background-color: $background-color;
         z-index: 99;
     }
 
@@ -12,19 +11,43 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
     }
 }
 
 .logo {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+
     & span {
-        color: blue;
+        font-weight: 800;
+        text-transform: uppercase;
+        color: $accent-color;
     }
 }
 
 .nav {
+    height: 110px;
+    display: flex;
+    align-items: center;
+    width: 565px;
+
     & ul {
         display: flex;
         flex-direction: row;
-        gap: 10px;
+        justify-content: space-between;
+        width: 100%;
+
+        & a {
+            font-family: "Open Sans", sans-serif;
+            font-size: 15px;
+            font-weight: 800;
+            text-transform: uppercase;
+        }
+    }
+
+    &__link {
+        padding: 0 0 0 10px;
+        color: black;
     }
 }

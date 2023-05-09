@@ -38,6 +38,10 @@
     }
 }
 
+.accent {
+    color: $accent-color !important;
+}
+
 cite {
     display: flex;
     flex-direction: row;
